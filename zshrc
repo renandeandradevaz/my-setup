@@ -16,13 +16,16 @@ export PATH=$HOME/.local/bin:$PATH
 # PHP - Laravel
 export PATH="$HOME/.composer/vendor/bin:$PATH"
 
-# Java and maven
+# Java, maven, gradle
 export JAVA_HOME=${MY_APPS_ROOT}/jdk1.8.0_221
 export PATH=${JAVA_HOME}/bin:${PATH}
-export MAVEN_HOME=${MY_APPS_ROOT}/apache-maven-3.2.2
-#export MAVEN_HOME=${MY_APPS_ROOT}/apache-maven-3.6.1
+#export MAVEN_HOME=${MY_APPS_ROOT}/apache-maven-3.0.5
+#export MAVEN_HOME=${MY_APPS_ROOT}/apache-maven-3.2.2
+export MAVEN_HOME=${MY_APPS_ROOT}/apache-maven-3.6.1
 export M2_HOME=${MAVEN_HOME}
 export PATH=${MAVEN_HOME}/bin:${PATH}
+export GRADLE_HOME=${MY_APPS_ROOT}/gradle/gradle-6.1.1
+export PATH=${GRADLE_HOME}/bin:${PATH}
 
 # GraalVM
 export GRAALVM_HOME=${MY_APPS_ROOT}/graalvm-ce-1.0.0-rc14
