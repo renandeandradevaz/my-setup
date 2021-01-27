@@ -33,6 +33,8 @@ export PATH=${GRAALVM_HOME}/bin:${PATH}
 
 # Golang
 export PATH=$PATH:${MY_APPS_ROOT}/go/bin
+export GOPATH=$HOME/go
+export GOPRIVATE=bitbucket.org
 
 # Nodejs
 export PATH=${MY_APPS_ROOT}/node-v10.16.3-linux-x64/bin:${PATH}
